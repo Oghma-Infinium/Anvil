@@ -2,15 +2,14 @@
 
 ![banner image](https://raw.githubusercontent.com/Althro/Anvil/main/Resources/AnvilTestThumbnail.png)
 
-Wabbajack Modlist Installer by Althro with support from Aetherius Modding.
+Wabbajack Modlist Installer by Althro with support from Waking Dreams
 
 <table stlyle="border: none;">
 <tr>
 <td><img src="https://raw.githubusercontent.com/Althro/Anvil/main/Resources/WJIcon.png" width="64px" /></td>
 <td><a href="https://github.com/wabbajack-tools/wabbajack/releases">Download on Wabbajack</a></td>	
 <td><a href="https://loadorderlibrary.com/lists/anvil">View modlist</a></td>
-<td><img src="https://raw.githubusercontent.com/Althro/Anvil/main/Resources/AMLogo.webp" width="72px" /></td>
-<td><a href="https://discord.gg/aetherius-modding"><img alt="Discord" src="https://img.shields.io/discord/1132691434420576337?style=for-the-badge&label=Aetherius%20Modding"></a></td>
+<td><a href="https://discord.gg/wakingdreams">Modlist Support
 </tr>
 </table>
 
@@ -239,4 +238,4 @@ No mod has been shown to be fatal, however if you find the game running to be in
 
 ## Contact
 
-Whilst I am available primarily on [my server](https://discord.gg/xRrHRsb5e9), please check the [issues](https://github.com/Althro/Anvil/issues) tab on GitHub first if you have any issues. DO NOT DM ME ON DISCORD.
+Whilst I am available primarily on [my server](https://discord.gg/wakingdreams), please check the [issues](https://github.com/Althro/Anvil/issues) tab on GitHub first if you have any issues. DO NOT DM ME ON DISCORD.
