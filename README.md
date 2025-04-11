@@ -48,7 +48,7 @@
 
 ## Introduction
 
-**Anvil** is a visuals-only modlist for Skyrim Special Edition (1.6.1170) that attempts to showcase the power of [Community Shaders](https://www.nexusmods.com/skyrimspecialedition/mods/86492). Originally crafted by Althro, it's now maintained by Bingus (former author of the [Ascensio](https://github.com/Oghma-Infinium/Ascensio) modlist) as my own personal playground for Community Shaders related mods. So whether you’re looking for a solid visual foundation to build upon or simply want to dive in and play as is, Anvil has you covered.
+**Anvil** is a visuals-only modlist for Skyrim Special Edition (1.6.1170) that is built around [Community Shaders](https://www.nexusmods.com/skyrimspecialedition/mods/86492). Originally crafted by Althro, it's now maintained by Bingus (former author of the [Ascensio](https://github.com/Oghma-Infinium/Ascensio) modlist) as my own personal playground for Community Shaders related mods. So whether you’re looking for a solid visual foundation to build upon or simply want to dive in and play as is, Anvil has you covered.
 
 Every tweak and change is mostly documented within the `Notes` section of Mod Organizer 2, making it easy to keep track of what’s been adjusted. A heads-up for anyone checking out older videos or reviews: starting with versions 3.0+, I (bingus) have revamped Anvil to reflect my personal visual preferences, so much of the earlier content might not be accurate anymore.
 
