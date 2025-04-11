@@ -163,6 +163,9 @@ But why is this? Skyrim appears to use system memory in very unexpected ways, fo
 
  1. Change Skyrim SE's Steam settings so it does not [automatically update](https://help.steampowered.com/en/faqs/view/71AB-698D-57EB-178C#disable).
  2. Please ensure you follow the steps outlined in the [Installing Rare Curios Files](#installing-rare-curios-files) section. Most AE DLC owners should not have to do this step but as a precautionary, please **DO NOT** skip this step.
+ 3. Start the game once and let it do the graphics check. Do not worry about the settings as it will be replaced during installation.
+ 4. Install the [SE Creation Kit on Steam](https://store.steampowered.com/app/1946180/Skyrim_Special_Edition_Creation_Kit/). This needs to be installed on the same drive your Skyrim SE is installed to.
+ 5. Run the Creation Kit once and select `Yes` when it asks about unpacking scripts.
 
 #### Changing the Game Language
 
