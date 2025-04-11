@@ -1,4 +1,4 @@
-![](https://raw.githubusercontent.com/Althro/Anvil/main/Media/Anvil_Header.png)
+![](https://raw.githubusercontent.com/Oghma-Infinium/Anvil/refs/heads/main/Media/Anvil%20Header.png)
 
 <p align="center">
   [ <a href="https://github.com/Oghma-Infinium/Anvil">Installation</a> |

@@ -1,5 +1,4 @@
-
-![](https://raw.githubusercontent.com/Althro/Anvil/main/Media/Anvil%20Banner.png)
+![](https://raw.githubusercontent.com/Oghma-Infinium/Anvil/refs/heads/main/Media/Anvil%20Banner.png)
 
 <p align="center">
   [ Installation | <a href="https://github.com/Oghma-Infinium/Anvil/blob/main/CHANGELOG.md">Changelog</a> |
