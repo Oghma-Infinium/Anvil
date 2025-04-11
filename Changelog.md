@@ -1,13 +1,66 @@
-# Changelog
+![](https://raw.githubusercontent.com/Althro/Anvil/main/Media/Anvil_Header.png)
+
+<p align="center">
+  [ <a href="https://github.com/Oghma-Infinium/Anvil">Installation</a> |
+  Changelog |
+  <a href="https://github.com/Oghma-Infinium/Anvil/blob/main/CONFIG.md">Configuration</a> | 
+  <a href="https://loadorderlibrary.com/lists/anvil">Load Order</a> |
+  <a href="https://discord.gg/4WwqfK5yHg">Modlist Discord</a> ]
+</p>
+
+# Table of Contents
+
+ - [3.0.0](#300) Release Date:
+ - [2.0 Versions](#20-versions)
+ - [1.0 Versions](#10-versions)
+ - [Beta Versions](#beta-versions)
+
+### 3.0.0
+
+Key Info
+
+- I removed the entire AE DLC except for the 4 free AE CC (I hate the AE DLC)
+- Uhm. I also rebuilt the entire modlist from the ground up... I didn't bother listing things out because that sounded like torture
+- Try it out and let me know how it is? lol?
+
+<Details>
+<summary>Changes</summary>
+
+#### Updated
+
+- everything. everything was updated.
+
+#### Added
+
+- stuff
+
+#### Removed
+
+- lots of stuff
+
+</details>
+
+</details>
+
+## 2.0 Versions
+
+<details>
+<summary>2.0 Versions</summary>
+
+- [2.2 - "uLtRaFiXeD - My Patches Edition"](#22---ultrafixed---my-patches-edition)
+- [2.1 - "Upgrades people, Upgrades..."](#21---upgrades-people-upgrades)
+- [2.0 - "The reforging"](#20---the-reforging)
 
 ## 2.2 - "uLtRaFiXeD - My Patches Edition"
 
 ### Fixes
+
 - Fixed Windhelm snow lod (Thanks to Sheson)
 - Fixed blending in some areas
 - Fixed Fence issues
 
 ### Updated
+
 - Animated Ice Floes
 - Anvil Resources
 - Azurite Horizons
@@ -27,6 +80,7 @@
 - Xavbio Glass Armors & Weapons
 
 ### Added
+
 - Better Argonian horns
 - Children of the Hist
 - Cover Khajiits
@@ -47,6 +101,7 @@
 - Vanilla Warpaints Absolution
 
 ### Removed
+
 - Cleaned Skyrim Textures [Anvil is at the point that it doesn't need them. It just wastes space having it.]
 - Cleaned textures fixes [Not needed due to not having Cleaned]
 - Diverse Farm Fences [Broken normals on mod - Will Re-Add when fixed]
@@ -58,12 +113,14 @@
 ## 2.1 - "Upgrades people, Upgrades..."
 
 ### Info
+
 - Bumped MO2 version to enable usage of newer plugins. Overall performance seems fine, please report any issues.
 - Re-added seperators on right pane for easier navigation
 - Split CS section into CS and Reshade to enable easier navigation
 - Hopefully fixed CTD issues with certain DLL plugins.
 
 ### Updated
+
 - Better Vanilla Gravestones
 - Born in a Barn - Door Curtains for Shacks
 - Community Shaders
@@ -82,6 +139,7 @@
 - Vanilla Hair Remake
 
 ### Added
+
 - Bethesda Plugin Manager
 - Dynamic Cubemaps
 - Dynamic Cubemaps - Metal
@@ -96,24 +154,28 @@
 - Wetness Effects
 
 ### Removed
+
 - Cunny's Bars and Counters
 - Curation Club (Not required anymore due to mature setup)
 - DynDOLOD DLL NG (Reports of incompatibilities and crashes - Unable to 100% verify but removing for now)
 - Native EditorID Fix (Incompatible with Simple Dual Sheath due to EditorID changes - Issue reported to Kitsune)
 
 ## 2.0 - "The reforging"
+
 - **Major Engine Update - NOT SAVE SAFE**
 - **Major repatching undertaken**
 - **PLUGIN HEADERS CHANGED - BEES REQUIRED IF USING ON OLDER GAME VERSION**
 - Big thanks to Brotherhood of crêpe for support and endoresment of this update.
 
 ### Fixed
+
 - CC patching was broken in some places. This has now been recitified.
 - MO2 slowness/errors in parts
 - Overly bright areas in some places
 - xEdit scripts not working correctly (Integrated fix posted in Aetherius Server)
 
 ### Tweaked
+
 - Furniture textures to achieve better consistency
 - Landscape textures to achieve better blends in areas
 - Mesh overwrites in places
@@ -123,6 +185,7 @@
 - Weathers & ENB Setup
 
 ### Updated
+
 - Better Vanilla Gravestones
 - CK platform extended
 - Console++
@@ -141,6 +204,7 @@
 - Vanilla Hair Remake
 
 ### Added
+
 - Ambient Warfare
 - Amidianborn Armors
 - Amidianborn Weapons
@@ -268,6 +332,7 @@
 - Xavbio Vampire Armors & Weapons
 
 ### Removed
+
 - 2K Nordic & Imperial Tents
 - Acoustic Space Improvements
 - Aequinoctium - Weathers and Seasons
@@ -304,24 +369,41 @@
 - Soul Cairn HD
 - Venerable Nordic Temples
 
+</details>
+
+## 1.0 Versions
+
+<details>
+<summary>1.0 Versions</summary>
+
+- [1.2.1](#121)
+- [1.2.0](#120)
+- [1.1.0](#110)
+- [1.0.1](#101)
+
 ## 1.2.1
+
 - Fixed Low-res warpaints
 - Fixed Modlist version
 
 ### Updated
+
 - Skyrim Misc Fixes Pack (again)
 
 ### Added
+
 - SC Vanilla Hair Retex
 - Vanilla Warpaints Absolution
 
 ## 1.2.0
+
 - Fixed Candle Reflections
 - Fixed overly reflective mushrooms
 - Fixed Wonky Fences
 - Tweaked starting chest
 
 ### Updated
+
 - Anvil Resources
 - DynDOLOD DLL
 - EmbersXD
@@ -331,6 +413,7 @@
 - Sound Record Distributor
 
 ### Added
+
 - Better Blackreach Clutter
 - Diverse Farm Fences
 - Mushrooms Revamped
@@ -340,6 +423,7 @@
 - Ugly Wind and Snow Remover
 
 ## 1.1.0
+
 - **Not Save Safe**
 - Fixed projected diffuse on certain objects
 - Reworked vast majority of Architecture and Clutter Texture
@@ -348,6 +432,7 @@
 - Adjusted Documentation where necessary
 
 ### Updated
+
 - Anvil Resources
 - ENB Binaries
 - Keyword Item Distributor
@@ -358,6 +443,7 @@
 - xLodGen
 
 ### Added
+
 - Aequinoctium - Weathers and Seasons
 - Ancient AF Windhelm
 - Ancient AF Windhelm Fix
@@ -400,6 +486,7 @@
 - Weathered Furniture - Common and Upper Class
 
 ### Removed
+
 - Amon ENB Reborn
 - Ancient Dwemer Metal Skyland Patches
 - Dark Brotherhood Sanctuary Decor - Banner and Door
@@ -426,18 +513,54 @@
 - Tardis' Draw Knife
 
 ## 1.0.1
+
 - **Potentially not save compatible**
 - Fixed lod issue with the new Windmills
 
 ### Updated
+
 - Address Library for SKSE
 - Anvil Resources
 - Lod Model Library
 
 ### Removed
+
 - SMIM Windmill Sails optimised
 
-## 1.0 - "...The End is never the End..."
+</details>
+
+</details>
+
+## Beta Versions
+
+<details>
+<summary>Beta Versions</summary>
+
+- [1.0.0 - "...The End is never the End..."](#100---the-end-is-never-the-end)
+- [0.16.1](#0161)
+- [0.16.0](#0160)
+- [0.15.0](#0150)
+- [0.14.1](#0141)
+- [0.14.0](#0140)
+- [0.13.1 - Hotfix](#0131---hotfix)
+- [0.13.0 - "Best of both worlds"](#0130---best-of-both-worlds)
+- [0.12.1](#0121)
+- [0.12.0](#0120)
+- [0.11.0](#0110)
+- [0.10.0](#0100)
+- [0.9.0](#090)
+- [0.8.2](#082)
+- [0.8.0](#080)
+- [0.7.0](#070)
+- [0.6.0](#060)
+- [0.5.0](#050)
+- [0.4.0](#040)
+- [0.3.0](#030)
+- [0.2.0](#020)
+- [0.1.0](#010)
+
+## 1.0.0 - "...The End is never the End..."
+
 - **Not Save Compatible - Large Update**
 - **Anvil is now a featured list on Wabbajack!**
 - Added full paid content update. **NOTE:** This is not the new CC store content, this is the paid Anniversary Edition update.
@@ -450,6 +573,7 @@
 - Renamed patches to have "ANV_" before them to enable ease of identification.
 
 ### Version/Header Change
+
 - Actor Limit Fix
 - Address Library for SKSE
 - AnimObject Swapper
@@ -487,6 +611,7 @@
 - Storm Lightning
 
 ### Updated
+
 - Anvil Resources
 - CK platform Fixes
 - DynDOLOD (Tool)
@@ -502,6 +627,7 @@
 - XP32 Skeleton
 
 ### Added
+
 - Acoustic Space Improvement Fixes
 - Amon ENB Reborn
 - Audio Overhaul for Skyrim
@@ -537,6 +663,7 @@
 - zEdit
 
 ### Removed
+
 - Beard Mask Fix for Skyrim 1.5
 - Cocks for 1.5
 - Echantable Special Item Fix for Skyrim 1.5
@@ -544,23 +671,28 @@
 - RaceMenu 0.4.16 Memory Leak Hotfix
 
 ## 0.16.1
+
 - **Save compatible**
 - Adjusted Frost VFX to be higher quality
 - Fixed Sky reflections on ENB profile
 
 ### Updated
+
 - DynDOLOD (Application)
 
 ### Removed
+
 - Ultimate HD Fire Effects
 
-## 0.16
+## 0.16.0
+
 - **Not Save Safe**
 - Adjusted some documentation to account for changes.
 - Adjusted water in ENB profile to reduce seamage
 - Reworked Lighting considerably.
 
 ### Added
+
 - EmbersXD
 - Fires and Embers Clipping Fix
 - Sky Reflection Fix
@@ -568,6 +700,7 @@
 - Stagger Effect Fix
 
 ### Updated
+
 - Animated Ice Floes
 - Anvil Resources
 - Complete Widescreen Fix
@@ -575,24 +708,29 @@
 - Particle Patch for ENB
 
 ### Removed
+
 - Enhanced Lighting for ENB
 - KittyVFX - Fire
 - Relighting Skyrim
 
-## 0.15
+## 0.15.0
+
 - **Not Save Safe**
 - Due to profile changes which occured in pervious version, it is recommend to **clean install** the list. You can keep the downloads folder though.
 
 ### Added
+
 - Kanjs Books All In One
 - Modlist Update Checker
 - Varied Chests
 
 ### Updated
+
 - Animated Ice Floes
 - Anvil Resources
 
 ### Removed
+
 - Kanjs Ancient Falmer Tomes
 - Kanjs Black Books
 - Kanjs Boetheiah's Proving
@@ -610,19 +748,24 @@
 - Kanjs The Wolf Queen
 
 ## 0.14.1
+
 - Styyx fixed the CK. He is a legend.
 - Swapped ENB profile to be the default.
 
 ### Added
+
 - Bash Bug Fix
 
 ### Updated
+
 - Navigator
 
-## 0.14
+## 0.14.0
+
 - Tweaked ENB profile to provide a better setup for those wishing to use it.
 
 ### Added
+
 - Modular SNP Hairstyles
 - Rudy ENB
 - SkyHud
@@ -630,17 +773,21 @@
 - Ultimate Immersion Toggle
 
 ### Updated
+
 - Navigator
 
 ### Removed
+
 - ENB Extender
 - KiLoader
 - Silent Horizons 2
 
 ## 0.13.1 - Hotfix
+
 - Fixed error with CKPrefs file causing intall issues
 
-## 0.13 - "Best of both worlds"
+## 0.13.0 - "Best of both worlds"
+
 - **NOT SAVE SAFE**
 - Rebuild of list to utilise BOBW 1.5.97.
 - Fixed Creation Kit errors and enabled running on all profiles.
@@ -654,6 +801,7 @@
 - Tweaked Particle lights and VFX to be less invasive.
 
 ### Added
+
 - Backported Extended ESL Support
 - Beard Mask Fix for Skyrim 1.5
 - COCKS for Skyrim 1.5
@@ -679,6 +827,7 @@
 - Ultimate HD Fire Effects
 
 ### Removed
+
 - 2K Boar Meat
 - Better Effigy of King Olaf
 - Elsopa Training Dummies Redone
@@ -693,28 +842,34 @@
 - Trainwreck (Crash Logger is slightly easier to read)
 
 ### Updated
+
 - Animated Ice Floes
 - Complete Widescreen fix for Vanilla and SkyUI
 - Creation Kit Platform Extended
 - Sound Record Distributor
 - xEdit (Technically downgraded to version on Nexus)
- 
+
 ## 0.12.1
+
 - Recompiled against latest version of Skyrim. No more updates planned for now.
 
 ### Removed
+
 - Creation Kit - Owing to errors with CK on compilation, it has had to be temporarily removed from Anvil.
 
-### Updated 
+### Updated
+
 - SPID.
 
-## 0.12
+## 0.12.0
+
 - Added "Books & Paper" seperator to enable easier sorting
 - Fixed Dwemer Section
 - Fixed Nif Preview not working
 - Simplified textures in some areas to achieve a better consistency
 
 ### Added
+
 - Ancient Dwemer Metal
 - Ancient Dwemer Metal patches
 - Believable Weapons
@@ -741,6 +896,7 @@
 - Sanguine - Enhanced Blood Texture Retexture
 
 ### Removed
+
 - Armor mesh Fixes
 - BURP Spell tomes
 - Book Covers Skyrim
@@ -756,33 +912,40 @@
 - Sharpen Other Swords - Leanwolfs Better Shaped Weapons
 
 ### Updated
+
 - Nif Preview (Technically downgraded)
 - Spell Perk Item Distributor
 
-## 0.11
+## 0.11.0
+
 - Downgraded MO2 version to enable better Linux/Steam Deck compatability.
 - Reworked creatures to improve variety and be more reminiscent to vanilla.
 
 ### Added
+
 - Bellyache's Animal and Creature Pack Revamped
 - Spiders of Solsthiem - Transparency Fix
 
 ### Removed
+
 - Forgotten Creatures
 - Iconic's Spiders
 - Iconic's Werebeasts
 - Real Rabbits
 
 ### Updated
+
 - Keyword Item Distributor
 - Zero Bounty Hostility Fix
 
-## 0.10
+## 0.10.0
+
 - Cleaned up more downloads to save space
 - Reworked Ice to make it better.
 - Reworked Weathers & CS post processing to be more fitting
 
 ### Added
+
 - Amethyst - Weathers and Reshade Preset for Community Shaders
 - Animated Ice Floes
 - Glacierslab
@@ -790,22 +953,26 @@
 - Obsidian Weathers
 
 ### Removed
+
 - DALC Fix for Wander
 - Vende's Reshade
 - Wander Weathers
 
 ### Updated
+
 - EmbersXD
 - Fire and Embers Clipping Fix
 - Simplicity of Snow
 - Trainwreck
 
-## 0.9
+## 0.9.0
+
 - Overhauled Character visuals to give better consistency.
 - Overhauled Trees to improve looks and performance.
 - Swapped back to Optional Quick Start for smoother game start
 
 ### Added
+
 - Better Reach Trees
 - CK Custom INI
 - Champollion
@@ -825,6 +992,7 @@
 - XP32 Basic Skeleton
 
 ### Removed
+
 - HQ Tree Back
 - Masculine and Feminine Khajiit textures
 - Simply Bigger Trees
@@ -833,18 +1001,21 @@
 - Vanilla Hair Salt & Wind
 - Xenius Character Improvement
 
-## 0.8.2 - Hotfix
+## 0.8.2
+
 - Fixed tools not showing up on Forge profile.
 - Removed QUI due to non compatability.
 - Added Stay at System Page NG
 
-## 0.8
+## 0.8.0
+
 - Changed alternate start to enable better compatability with other mods.
 - Fixed issue with black rocks.
 - Improved performance on some ENB light meshes.
 - Removed some egregious looking things.
 
 ### Added
+
 - ENB Extender for Skyrim
 - Faster Vanilla Start
 - KiLoader for Skyrim
@@ -858,19 +1029,23 @@
 - Vanilla Hair fixes
 
 ### Updated
+
 - Faster HDT SMP
 - Rehsade Effect Toggler
 
 ### Removed
+
 - Optional Quick Start SE
 - Wandershade
 
-## 0.7
+## 0.7.0
+
 - Replaced Default ENB with something more suiting
 - Replaced Dwemer setup due to mods being removed
 - Regenned Lods
 
 ### Added
+
 - Golden Dwemer Pipeworks Redone
 - Golden Dwemer Pipeworks Redone Unofficial update
 - Golden Dwemer Pipeworks Redone Patches
@@ -883,17 +1058,20 @@
 - FYX - Water Splash
 
 ### Removed
+
 - Ancient Dwemer Metal
 - Ancient Dwemer Metal patches
 - Silent Horizons 2
 
-## 0.6
-- Cleaned up Downloads to further 
+## 0.6.0
+
+- Cleaned up Downloads to further
 - Fixed interior lighting issues
 - Fixed landscape Parallax errors
 - Fixed scars being very hard to see
 
 ### Added
+
 - DALC Fix for Wander
 - ELE
 - Fantasia Landscape Parallax (I forgot to remove the original from the downloads to technically it was never removed)
@@ -904,6 +1082,7 @@
 - Wander Weathers
 
 ### Removed
+
 - Azurite Mists
 - Azurite Weathers
 - Cathedral Water
@@ -918,15 +1097,18 @@
 - Water Mod
 
 ### Updated
+
 - Complete Widescreen Fix for Vanilla and SkyUI
 - Help Extender
 - Vende's Reshade
 
-## 0.5
+## 0.5.0
+
 - Fixed issue with Ice spike blockiness
 - Adjusted lod settings to deliver slight performance improvement
 
 ### Added
+
 - Better Jumping
 - Contextual Crosshair
 - ENB Light
@@ -944,6 +1126,7 @@
 - Vanilla HD Branches
 
 ### Removed
+
 - Barking Up The Right Tree
 - Cathedral Landscape Grass Mipmap fix
 - Cathedral Landscape True Grass only
@@ -952,7 +1135,8 @@
 - Rudy Misc
 - Simply Skin
 
-## 0.4
+## 0.4.0
+
 - Fixed ENB screenshot format
 - Fixed non 21x9 interface
 - Regenerated INI files using Lexy's settings in BethINI Pie (standard BethINI remains for those that wish to use it)
@@ -960,6 +1144,7 @@
 - Reworked caves and landscapes to be a bit less "awful"
 
 ### Added
+
 - BethINI Pie
 - Better Dialogue Controls
 - Better Message Box Controls
@@ -976,19 +1161,23 @@
 - Wider MCM menu
 
 ### Removed
+
 - Cathedral Landscapes
 - CC's HQ Caves
 - CC's HQ Mines
 - Standard Lighting Templates
 
 ### Updated
+
 - ConsoleUtilSSE NG
 
-## 0.3
+## 0.3.0
+
 - Consolidated Generated Files into one download
 - Regenned Lods to account for changes
 
 ### Added
+
 - Astral Aspect
 - CC's HQ Caves
 - CC's HQ Mines
@@ -1001,23 +1190,28 @@
 - Water Mod
 
 ### Removed
+
 - Cathedral 3D Pine Grass
 - Defaulto ENB
 - Fantasia Landscapes
 
 ### Updated
+
 - Barking Up The Right Tree
 - DynDOLOD (Application)
 - Generated Files
 
-## 0.2
+## 0.2.0
+
 - Regenned ini files using older BethINI
 - Regenned Lods to account for ini changes
 
 ### Added
+
 - BethINI Standalone
 
 ### Removed
+
 - Aetherial Crown SE
 - Aetherial Crown Plugin Replacer
 - Bethini Pie
@@ -1026,5 +1220,8 @@
 - JS Knapsacks
 - JS Rings
 
-## 0.1
+## 0.1.0
+
 - Initial Version
+
+</details>
