@@ -19,24 +19,26 @@
 
 Key Info
 
-- I removed the entire AE DLC except for the 4 free AE CC (I hate the AE DLC)
-- Uhm. I also rebuilt the entire modlist from the ground up... I didn't bother listing things out because that sounded like torture
-- Try it out and let me know how it is? lol?
+- The AE DLC is no longer required. Only the 4 Free Creation Club files are required (Fishing, Survival Mode, Saints & Seducers, Rare Curios)
+- Modlist will most likely be heavier performance wise from this version going forward. Sorry...
+- The `FORGE` profile has been removed. The bug fixes that come with that profile are still incorporated of course, but if you'd like a modlist for developing mods I recommend [Althro's Dev Tools](https://github.com/Styyx1/ADT)
+- The optional `ENB` profile has been removed. This list is going to focus on Community Shaders for it's visuals first and foremost due to votes from users (and the fact this is partly my own personal list to play around with Community Shaders)
+- Modlist has been rebuilt from the ground up. Unfortunately, I didn't document any of the mod changes while doing this because it would have taken me forever
 
 <Details>
 <summary>Changes</summary>
 
 #### Updated
 
-- everything. everything was updated.
+- Everything. Everything was updated.
 
 #### Added
 
-- stuff
+- Stuff!
 
 #### Removed
 
-- lots of stuff
+- Lots of stuff...
 
 </details>
 
