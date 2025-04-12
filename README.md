@@ -1,7 +1,9 @@
 ![](https://raw.githubusercontent.com/Oghma-Infinium/Anvil/refs/heads/main/Media/Anvil%20Banner.png)
 
 <p align="center">
-  [ Installation | <a href="https://github.com/Oghma-Infinium/Anvil/blob/main/CHANGELOG.md">Changelog</a> |
+  [ <a href="https://www.nexusmods.com/skyrimspecialedition/mods/147302">Nexus</a> |
+  Installation | 
+  <a href="https://github.com/Oghma-Infinium/Anvil/blob/main/CHANGELOG.md">Changelog</a> |
   <a href="https://github.com/Oghma-Infinium/Anvil/blob/main/CONFIG.md">Configuration</a> | 
   <a href="https://loadorderlibrary.com/lists/anvil">Load Order</a> |
   <a href="https://discord.gg/4WwqfK5yHg">Modlist Discord</a> ]
