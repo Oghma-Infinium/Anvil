@@ -36,7 +36,8 @@ Key Info
 
 ### Misc. Tweaks
  - Trimmed some mods from the list that I felt weren't really needed (as in other mods covered them)
- - Downscaled some mods. Any mods that were downscaled with Cathedral Assets Optimizer have been noted within the **Notes** section of MO2
+ - Downscaled some mods in the list. Any mods that were downscaled with Cathedral Assets Optimizer have been noted within the **Notes** section of MO2. 
+   - VRAM usage decreased from 9GB to hovering around 5-6GB in my tests (based on what the Community Shaders overlay says)
  - Removed some NPC overhauls since this modlist is meant to be a visual base for others and I felt that adding some of my preferred NPC appearance mods complicated that aspect
  - Added [Batch Plugin Cleaner for MO2](https://www.nexusmods.com/skyrimspecialedition/mods/59598) for users who want to add back the AE DLC (You'll need to clean the AE plugins to rerun DynDOLOD's NG version)
 
