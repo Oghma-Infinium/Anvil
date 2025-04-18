@@ -1,7 +1,7 @@
 ![](https://raw.githubusercontent.com/Oghma-Infinium/Anvil/refs/heads/main/Media/Anvil%20Banner.png)
 
 <p align="center">
-  [ Installation | <a href="https://github.com/Oghma-Infinium/Anvil/blob/main/CHANGELOG.md">Changelog</a> |
+  [ <a href="https://www.nexusmods.com/skyrimspecialedition/mods/147302">Nexus Page</a> | Installation | <a href="https://github.com/Oghma-Infinium/Anvil/blob/main/CHANGELOG.md">Changelog</a> |
   <a href="https://github.com/Oghma-Infinium/Anvil/blob/main/CONFIG.md">Configuration</a> | 
   <a href="https://loadorderlibrary.com/lists/anvil">Load Order</a> |
   <a href="https://discord.gg/4WwqfK5yHg">Modlist Discord</a> ]
@@ -12,7 +12,7 @@
 **Modlist Support: [Waking Dreams](https://discord.gg/4WwqfK5yHg)**
 
 >[!IMPORTANT]
->Anvil requires the four free AE mods (Fishing, Rare Curios, Survival Mode, and Saints and Seducers) included in the Skyrim Anniversary Edition update from November 2021
+>Anvil requires the four free AE mods (Fishing, Rare Curios, Survival Mode, and Saints and Seducers) included in the Skyrim Anniversary Edition update from November 2021. This modlist does **NOT** utilize the AE DLC, only these four free AE mods are used.
 
 >[!WARNING]
 >You must update Skyrim SE to the latest version (1.6.1170) on Steam to install this list.
@@ -80,10 +80,10 @@ The section below outlines my *recommended* system specifications for the list. 
 
 </Details>
 
-Downloads Size: ~78 GB
-Install Size: ~115 GB  
-Temporary Files: ~30 GB  
-**TOTAL:** ~193 GB  
+- Downloads Size: ~76 GB
+- Install Size: ~99 GB  
+- Temporary Files: ~30 GB  
+  **TOTAL:** ~175 GB  
 
 > In case of a disparity between the listed sizes here and the Wabbajack Gallery, the values here should be more correct as Wabbajack does not properly account for archive compression in the post-installation list.
 
@@ -162,7 +162,7 @@ But why is this? Skyrim appears to use system memory in very unexpected ways, fo
 >If you have your Steam Library in Program Files and only have one drive, please read [this article](https://github.com/LostDragonist/steam-library-setup-tool/wiki/Usage-Guide) by LostDragonist. Locations such as Desktop, Documents, Downloads, OneDrive, etc. *will* cause issues with installing and playing the list.
 
  1. Change Skyrim SE's Steam settings so it does not [automatically update](https://help.steampowered.com/en/faqs/view/71AB-698D-57EB-178C#disable).
- 2. Please ensure you follow the steps outlined in the [Installing Rare Curios Files](#installing-rare-curios-files) section. Most AE DLC owners should not have to do this step but as a precautionary, please **DO NOT** skip this step.
+ 2. Please ensure you follow the steps outlined in the [Installing Rare Curios Files](#installing-rare-curios-files) section. If you already own the AE DLC, and see **lowercase** curios files in your Skyrim's Steam install, you can safely skip this step. AE DLC owners do not have to worry about disabling/uninstalling the AE DLC either as Wabbajack will simply skip over those files when installing the modlist.
  3. Start the game once and let it do the graphics check. Do not worry about the settings as it will be replaced during installation.
  4. Install the [SE Creation Kit on Steam](https://store.steampowered.com/app/1946180/Skyrim_Special_Edition_Creation_Kit/). This needs to be installed on the same drive your Skyrim SE is installed to.
  5. Run the Creation Kit once and select `Yes` when it asks about unpacking scripts.
@@ -184,9 +184,9 @@ To change your Skyrim SE's language:
 #### Installing Rare Curios Files
 >
 >[!WARNING]
-> ***Do NOT skip this step or your install may fail!***
+> ***If you DO NOT own the AE DLC, do NOT skip this step or your install may fail!***
 
-Since the 1.6.1130 update (January 17, 2024), Steam has begun including the free Creation Club (CC) files with the base installation of Skyrim. However, these files do not have the same file hash as the files that are downloaded from the in-game **Creations** menu for Anniversary Edition (AE) users. In order to comply with Wabbajack policy and minimize issues for users who own the AE update, Anvil is compiled using the versions of the CC content that are obtained from the in-game **Creations** menu.  
+Since the 1.6.1130 update (January 17, 2024), Steam has begun including the free Creation Club (CC) files with the base installation of Skyrim. However, these files do not have the same file hash as the files that are downloaded from the in-game **Creations** menu for Anniversary Edition (AE) users. In order to comply with Wabbajack policy and minimize issues for users who own the AE update, Anvil is compiled using the versions of the CC content that are obtained from the **in-game** Creations menu.  
 
 As a result of this, for users who do not own the AE, you must ensure that you download the correct version of the CC files. Steps below:
 
@@ -199,8 +199,6 @@ As a result of this, for users who do not own the AE, you must ensure that you d
  - Select **Search** at the bottom and search for `Rare Curios`
  - Select the card titled `Rare Curios` and press **Download**
  - Once it is done, accept Bethesda's load order message and exit the game
-
-![](https://cdn.discordapp.com/attachments/1008055818782003421/1263168806054920283/Rare_Curios.png?ex=673cbb1f&is=673b699f&hm=1f79621666901b9b4fd93a5a1eb0732779388c4fa3fe4bb77d2211ffb6ab881b&)
 
 >[!IMPORTANT]
 >
@@ -320,9 +318,6 @@ Wabbajack frequently has trouble downloading mods hosted on sites other than Nex
 > Make sure that you **DO NOT** unzip these files.
 
 MEGA Files:
-
-- [LM's Beast Teeth](https://mega.nz/folder/GJ0W2LxB#36be7O9y1oFUdrgFbLHfew/file/6FkwFYTA)
-- [LM's EVG Hair Retex](https://mega.nz/folder/7VsT1LwT#sXtmEhgZH_JcRJlf0qIucQ/file/yJtmDZDR) (Grab both files in this MEGA folder)
 - [High Poly Head - EFA - Eyebrow Make Fix](https://mega.nz/file/WZt0BDCL#JNUTn_5P2sEPuHm3znSdrrqN28tPnxvmVzeFOw67FAU)
 
 Patreon Files:
@@ -399,7 +394,6 @@ Please refer the [this](https://ck.uesp.net/wiki/Input_Script) page for the DXSc
     - Toggle Subtitles Only: `Right Ctrl + F6` Keys
 - [Debug Menu](https://www.nexusmods.com/skyrimspecialedition/mods/136456): `F1` Key
 - [Modex - A Mod Explorer Menu](https://www.nexusmods.com/skyrimspecialedition/mods/137877): `Delete` Key
-- [Kreate](https://www.nexusmods.com/skyrimspecialedition/mods/83757): `Insert` Key
 - [Community Shaders](https://www.nexusmods.com/skyrimspecialedition/mods/86492): `End` Key
 - [True Directional Movement](https://www.nexusmods.com/skyrimspecialedition/mods/51614)'s Target Lock: `M3` button (Scroll Wheel button)
 

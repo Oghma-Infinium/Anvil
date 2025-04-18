@@ -1,7 +1,7 @@
 ![](https://raw.githubusercontent.com/Oghma-Infinium/Anvil/refs/heads/main/Media/Anvil%20Header.png)
 
 <p align="center">
-  [ <a href="https://github.com/Oghma-Infinium/Anvil">Installation</a> | <a href="https://github.com/Oghma-Infinium/Anvil/blob/main/CHANGELOG.md">Changelog</a> |
+  [  <a href="https://www.nexusmods.com/skyrimspecialedition/mods/147302">Nexus Page</a> | <a href="https://github.com/Oghma-Infinium/Anvil">Installation</a> | <a href="https://github.com/Oghma-Infinium/Anvil/blob/main/CHANGELOG.md">Changelog</a> |
   Configuration</a> |
   <a href="https://loadorderlibrary.com/lists/anvil">Load Order</a> | 
   <a href="https://discord.gg/4WwqfK5yHg">Modlist Discord</a> ]
@@ -12,9 +12,10 @@
 - [Optional Addons](#optional-addons)
   - [Keyboard Keybinds](#keyboard-keybinds)
   - [Performance Optimizations](#performance-optimizations)
+    - [Frame Generation](#frame-generation)
   - [Optional Visual Tweaks](#optional-visual-tweaks)
   - [Ultrawide Support](#ultrawide-support)
-- [Changing Resolution](#changing-resolution)
+  - [Changing Resolution](#changing-resolution)
 
 # Optional Addons
 
@@ -35,7 +36,6 @@ Please refer the [this](https://ck.uesp.net/wiki/Input_Script) page for the DXSc
     - Toggle Subtitles Only: `Right Ctrl + F6` Keys
 - [Debug Menu](https://www.nexusmods.com/skyrimspecialedition/mods/136456): `F1` Key
 - [Modex - A Mod Explorer Menu](https://www.nexusmods.com/skyrimspecialedition/mods/137877): `Delete` Key
-- [Kreate](https://www.nexusmods.com/skyrimspecialedition/mods/83757): `Insert` Key
 - [Community Shaders](https://www.nexusmods.com/skyrimspecialedition/mods/86492): `End` Key
 - [True Directional Movement](https://www.nexusmods.com/skyrimspecialedition/mods/51614)'s Target Lock: `M3` button (Scroll Wheel button)
 
@@ -67,13 +67,27 @@ Below are the list of mods you will find under the `Performance Optimizations` s
 
     </Details>
 
+### Frame Generation
+
+By default, Community Shaders comes with Frame Generation enabled. I've disabled this option by default due to some hardware not supporting it. (I know most hardware should but it's disabled as a pre-cautionary)
+
+If you have a GPU that supports DirectX 12 and a 120hz+ monitor, follow the instructions below to enable Frame Generation:
+
+- Start up Anvil (Make sure you're actually in-game and not at the Main Menu)
+- Press the `END` key to open the Community Shaders overlay
+- Navigate to the `Display` section
+- Switch the Frame Generation option to `Enabled`
+- (Optional) **If you have a NVIDIA RTX GPU**, I really recommend switching the Upscaling Method slider to `NVIDIA DLAA` too
+- Restart the game
+
+If you do NOT have a 120hz+ monitor, you can still force enable Frame Generation with the `Force Enable Frame Generation` slider but I'm not liable for any issues you might get from doing so!
+
 ## Optional Visual Tweaks
 
 This separator contains a series of visual-related tweaks.
 
  1. `Anvil - Arachnophobia and Entomophobia Support`: Removes some enemies that may trigger Arachnophobia or Entomophobia in some users.
  2. `Actually Brighter Lux Templates`: If interiors still feel too dark even after adjusting the in-game brightness slider, enable this mod to brighten them further.
- 3. `DALC Fix KreatE Preset - Actually Brighter Lux Templates`: Use this alongside the above mod. **Remember to activate it, or the brightness adjustments won't take effect!**
 
 ## Ultrawide Support
 
@@ -83,7 +97,7 @@ Please note that I (bingus) do not own a widescreen monitor. The additional ultr
 
 </Details>
 
-# Changing Resolution
+## Changing Resolution
 
 By default, Wabbajack will set the resolution in the list's `Skyrimprefs.ini` to match the native resolution of your monitor. However, Skyrim scales very poorly at resolutions above 1080p (`1920x1080`) and depending on your hardware, it might be difficult to achieve consistent FPS on higher resolutions.
 

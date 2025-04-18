@@ -1,7 +1,7 @@
 ![](https://raw.githubusercontent.com/Oghma-Infinium/Anvil/refs/heads/main/Media/Anvil%20Header.png)
 
 <p align="center">
-  [ <a href="https://github.com/Oghma-Infinium/Anvil">Installation</a> |
+  [  <a href="https://www.nexusmods.com/skyrimspecialedition/mods/147302">Nexus Page</a> | <a href="https://github.com/Oghma-Infinium/Anvil">Installation</a> |
   Changelog |
   <a href="https://github.com/Oghma-Infinium/Anvil/blob/main/CONFIG.md">Configuration</a> | 
   <a href="https://loadorderlibrary.com/lists/anvil">Load Order</a> |
@@ -10,12 +10,150 @@
 
 # Table of Contents
 
- - [3.0.0](#300) Release Date:
+ - [3.1.0](#300) Release Date: April 17, 2025
+ - [3.0.0](#300) Release Date: April 11, 2025
  - [2.0 Versions](#20-versions)
  - [1.0 Versions](#10-versions)
  - [Beta Versions](#beta-versions)
 
+### 3.1.0
+
+Key Info
+
+**Not Save-Safe**
+
+- Sorry for the unsafe-save update right after a major release, but the performance that the list shipped out in 3.0.0 with was pretty abysmal (for a Community Shaders list, in my opinion) so I did some performance optimizations (I didn't realize cause my PC is pretty beefy...)
+- Read the patch notes below for more info
+
+<Details>
+<summary>Patch Notes</summary>
+
+### Bug Fixes
+ - Fixed some NPCs being bald
+ - Fixed the 32x9 Ultrawide Support mod being improperly configured (thanks Kannon :3)
+ - Fixed the CPU Affinity MO2 plugin not being set to 0 initially
+ - Added the Skyrim.ccc file to Anvil's Stock Game folder. This should fix the issue of `ResourcePack.esl` disabling itself after closing the game
+
+### Misc. Tweaks
+ - Trimmed some mods from the list that I felt weren't really needed (as in other mods covered them)
+ - Downscaled some mods. Any mods that were downscaled with Cathedral Assets Optimizer have been noted within the **Notes** section of MO2
+ - Removed some NPC overhauls since this modlist is meant to be a visual base for others and I felt that adding some of my preferred NPC appearance mods complicated that aspect
+ - Added [Batch Plugin Cleaner for MO2](https://www.nexusmods.com/skyrimspecialedition/mods/59598) for users who want to add back the AE DLC (You'll need to clean the AE plugins to rerun DynDOLOD's NG version)
+
+</Details>
+
+<Details>
+<summary>Download Changes</summary>
+
+#### Updated
+- Andrealphus' Papyrus Functions
+- Assorted Mesh Fixes
+- Complete Widescreen Fix for Vanilla and SkyUI
+- Embers XD
+- Game Settings Override - Collection
+- Mute on Focus Loss
+  - This update should resolve issues with users using the modlist on Wine!
+- NAT CS
+- Nature of the Wildlands
+- Overlooked Dungeon Objects Retexture
+- Particle Patch
+- RaceMenu OverlayFix and Various Mod Fixes
+- Skyrim Landscapes and Water Fixes
+
+#### Added
+- 4thUnknown's Dragons
+- Addons For 4th's Dragons SE - Broken Horn for Paarthurnax
+- Batch Plugin Cleaner for MO2
+- Beastly Smiles
+- Better Dynamic Ash
+- Cathedral 3D Lavendar PBR Textures
+- Enhanced Landscapes - Dead Marsh Standalone
+- HD Terrain Noise Texture
+- Iconic's Moon Crest Retexture
+- Nature of the Wildlands - Vanilla Trees Replacer
+- Notes Panel for Mod Organizer 2
+- Ore Deposit - Meshes Improvement
+- PBR Gold and Silverware
+- RaceMenu - Male Khajiit Mouth Expression Fix
+- Riverbord's Riften Revival
+- Skyland Dawnguard
+- Skyrim Snow Dogs (Husky)
+- Spaghetti's Cities - Clutter Addons AIO
+- Vanilla Plus City Entrances AIO
+- Tomato's Landscapes AIO
+- Solitude Interior Meshes Fixes
+- TrueHUD Curated Bosses
+- Subtle Eye Cubemap
+
+#### Removed
+- Amon Textures HD - Clutter
+- Amon Textures HD - DLC01
+- Amon Textures HD - DLC02
+- Ancient Pottery
+- Better Dirt Cliffs and Alphas
+- Better Effigy of King Olaf
+- Blended Roads Redone Bridges
+- BnP Eye Pack
+- Boreal Boats
+- Children of the Hist
+- Children of the Pariah
+- Dapper Deliveries - A Courier Overhaul
+- Dark Brotherhood Sanctuary Decor - Paper Tenets
+- Dark Brotherhood Sanctuary Decor - The Blood Door
+- Deiform Alduin
+- Durnehviir Redone
+- ElSopa - Training Dummies Redone
+- GG's Silverware
+- Glorious Doors of Skyrim - Missing Door Sounds
+- H.I.T.S
+- HD Reworked Dogs
+- HFs Barrels
+- HFs Whiterun Bench
+- High Quality Ivy For Stumps and Logs
+- Illustrious Whiterun
+- Kreate
+  - Removed due to possible VRAM issues with the mod
+- Kreate - DALC Fix Preset
+- LM's Beast Mouth
+- LM's EVG Modular Hair Retexture
+- MAMMOTH by Kajuan
+- Medieval Blended Roads
+- Modular SMP Hairstyles
+- Morthal Quest Coffin Retexture
+- My Road Signs are Beautiful
+- No More Ugly Branches
+- Northeastern Dwemer - Dragonborn Dwemer Tileset in Mainland Skyrim
+  - Really cool concept, but was experiencing some weird snow shader and collision issues with this mod
+- Northern Shores
+- Paarthurnax DragonSkin by DarkDukla
+- Pfuscher's UV Fixes
+- Polar Peaks
+- Project ja-Kha'jay
+- Rally's SMIM Chests
+- Raven Rock Building Tweaks
+- Resplendent Royals - Jarl's Court NPC Overhaul
+- Revered Dragon Retexture
+- SMIM Quality Addon
+- SavrenX Slimy Night Mother Coffin
+- Septentrional Landscapes
+- Shaders of Solstheim - Ash and Moss
+- Skyking Riften Complex Parallax Texture Overhaul
+- Skyrim 202X Smaller Packages - Riften Ratway
+- Skyrim 3D Windmill
+- Skyrim Remastered - Castle Volkihar and Clutter
+- Static Mesh Improvement Mod Improvement Mod
+- The Black Door - 3D Dagger and Glow
+- Tragedian's Fabulous Followers
+- Valiant Vigilants - Keeper Carcette and Stendarr Faction Overhaul
+- Whimsical Wizards - Winterhold College NPC Overhaul
+- Wigfrid's Tree Replacer
+- Windhelm Bridge Reforged
+
+</details>
+
 ### 3.0.0
+
+**Not Save-Safe**
 
 Key Info
 
@@ -26,18 +164,15 @@ Key Info
 - Modlist has been rebuilt from the ground up. Unfortunately, I didn't document any of the mod changes while doing this because it would have taken me forever
 
 <Details>
-<summary>Changes</summary>
+<summary>Download Changes</summary>
 
 #### Updated
-
 - Everything. Everything was updated.
 
 #### Added
-
 - Stuff!
 
 #### Removed
-
 - Lots of stuff...
 
 </details>
