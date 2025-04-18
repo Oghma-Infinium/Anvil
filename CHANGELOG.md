@@ -72,7 +72,6 @@ Key Info
 - HD Terrain Noise Texture
 - Iconic's Moon Crest Retexture
 - Nature of the Wildlands - Vanilla Trees Replacer
-- Notes Panel for Mod Organizer 2
 - Ore Deposit - Meshes Improvement
 - PBR Gold and Silverware
 - RaceMenu - Male Khajiit Mouth Expression Fix
