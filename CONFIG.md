@@ -8,6 +8,9 @@
 </p>
 
 ---
+<header>
+    <h1>Contents</h1>
+</header>
 
 - [Optional Addons](#optional-addons)
   - [Keyboard Keybinds](#keyboard-keybinds)

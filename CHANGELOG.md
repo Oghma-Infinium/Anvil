@@ -8,7 +8,9 @@
   <a href="https://discord.gg/4WwqfK5yHg">Modlist Discord</a> ]
 </p>
 
-# Table of Contents
+<header>
+    <h1>Contents</h1>
+</header>
 
  - [3.1.0](#300) Release Date: April 17, 2025
  - [3.0.0](#300) Release Date: April 11, 2025

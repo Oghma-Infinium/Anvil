@@ -17,34 +17,35 @@
 >[!WARNING]
 >You must update Skyrim SE to the latest version (1.6.1170) on Steam to install this list.
 
-# Table of Contents
+<header>
+    <h1>Contents</h1>
+</header>
 
-- [Table of Contents](#table-of-contents)
-  - [Introduction](#introduction)
-    - [System Requirements](#system-requirements)
-  - [Installation](#installation)
-    - [Pre-Installation](#pre-installation)
-      - [Installing Microsoft Visual C++ and .NET](#installing-microsoft-visual-c-and-net)
-      - [Pagefile and Crash Prevention](#pagefile-and-crash-prevention)
-      - [Setting Shader Cache Size (NVIDIA Users Only)](#setting-shader-cache-size-nvidia-users-only)
-      - [Steam Setup](#steam-setup)
-      - [Changing the Game Language](#changing-the-game-language)
-      - [Installing Rare Curios Files](#installing-rare-curios-files)
-    - [Wabbajack Installation](#wabbajack-installation)
-      - [Installing Wabbajack](#installing-wabbajack)
-      - [Downloading and Installing Anvil](#downloading-and-installing-anvil)
-    - [Problems with installation](#problems-with-installation)
-      - [Missing Manual Downloads](#missing-manual-downloads)
-  - [Post-Installation and Optional Setup](#post-installation-and-optional-setup)
-    - [Stock Game](#stock-game)
-    - [Antivirus Exceptions](#antivirus-exceptions)
-    - [Post-Installation Issues and Troubleshooting](#post-installation-issues-and-troubleshooting)
-    - [Keyboard Keybinds](#keyboard-keybinds)
-  - [Playing the Game](#playing-the-game)
-  - [Updating the modlist](#updating-the-modlist)
-  - [Removing the Modlist](#removing-the-modlist)
-  - [Issues](#issues)
-  - [Credits and Thanks](#credits-and-thanks)
+- [Introduction](#introduction)
+  - [System Requirements](#system-requirements)
+- [Installation](#installation)
+  - [Pre-Installation](#pre-installation)
+    - [Installing Microsoft Visual C++ and .NET](#installing-microsoft-visual-c-and-net)
+    - [Pagefile and Crash Prevention](#pagefile-and-crash-prevention)
+    - [Setting Shader Cache Size (NVIDIA Users Only)](#setting-shader-cache-size-nvidia-users-only)
+    - [Steam Setup](#steam-setup)
+    - [Changing the Game Language](#changing-the-game-language)
+    - [Installing Rare Curios Files](#installing-rare-curios-files)
+  - [Wabbajack Installation](#wabbajack-installation)
+    - [Installing Wabbajack](#installing-wabbajack)
+    - [Downloading and Installing Anvil](#downloading-and-installing-anvil)
+  - [Problems with installation](#problems-with-installation)
+    - [Missing Manual Downloads](#missing-manual-downloads)
+- [Post-Installation and Optional Setup](#post-installation-and-optional-setup)
+  - [Stock Game](#stock-game)
+  - [Antivirus Exceptions](#antivirus-exceptions)
+  - [Post-Installation Issues and Troubleshooting](#post-installation-issues-and-troubleshooting)
+  - [Keyboard Keybinds](#keyboard-keybinds)
+- [Playing the Game](#playing-the-game)
+- [Updating the modlist](#updating-the-modlist)
+- [Removing the Modlist](#removing-the-modlist)
+- [Issues](#issues)
+- [Credits and Thanks](#credits-and-thanks)
 
 ## Introduction
 
