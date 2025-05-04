@@ -12,7 +12,7 @@
     <h1>Contents</h1>
 </header>
 
- - [3.1.1](#311) Release Date: , 2025
+ - [3.1.1](#311) Release Date: May 4, 2025
  - [3.1.0](#310) Release Date: April 17, 2025
  - [3.0.0](#300) Release Date: April 11, 2025
  - [2.0 Versions](#20-versions)
