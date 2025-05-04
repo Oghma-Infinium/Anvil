@@ -12,18 +12,123 @@
     <h1>Contents</h1>
 </header>
 
- - [3.1.0](#300) Release Date: April 17, 2025
+ - [3.1.1](#311) Release Date: , 2025
+ - [3.1.0](#310) Release Date: April 17, 2025
  - [3.0.0](#300) Release Date: April 11, 2025
  - [2.0 Versions](#20-versions)
  - [1.0 Versions](#10-versions)
  - [Beta Versions](#beta-versions)
 
-### 3.1.0
+## 3.1.1
 
-Key Info
+### Key Info
 
-**Not Save-Safe**
+- **Save-Safe. You can play with your existing save with this update!**
+- Just a little update to address bugs, update some mods, and tweak some of the visuals. Huge thank you to the users who caught these bugs
+- The plugin warning when loading your save is fine and can be ignored
+- Read the patch notes below for detailed info
 
+<Details>
+<summary>Patch Notes</summary>
+
+### Bug Fixes
+
+- Scaled down a clipping NotWL tree within Hob's Fall Cave
+- Fixed an invisible, misplaced uprooted stump outside of Anise's Cabin
+- Added a mod to fix floating hanging moss with NotWL
+- Added a mod to fix floating beehives with NotWL
+- Updated **Survival Mode Improved** to fix issues with not being able to fast travel even after disabling Survival Mode
+- Fixed Dawnguard NPCs poking their asses on NotWL's default tree stumps; they'll now sit on proper tree stumps
+- Fixed the `CaveGCliffs03NS.nif` mesh being invisible
+- Fixed random floating candles in the Ragged Flagon as well as other areas with floating candles
+- Fixed Thistle textures bugging out
+
+### Visual Tweaks
+
+- Made Dead Shrubs a bit larger
+  - Regular + Ash Dead Shrub scale changed from 0.5 > 0.75 and Dead Shrub Snow scale changed from 0.5 > 0.65
+- Reverted the Talos Shrine diffuse texture to JS Shrines' default since it looked too dark in game
+- Switched out the humanoid skin textures the list used for more weathered looking skins
+- Went back to the traditional look for the blowing snow, the previous blowing snow looked too much like fine sand
+
+### Misc. Tweaks
+
+ - Disabled Survival Mode by default
+ - Tidied up the **Notes** section for certain mods that were either missing their notes or to expand on some notes further
+ - Moved my edited plugin of Skyrim 3D Trees and Plants to its own mod and updated its **Notes** section to list out what changes were exactly made
+ - Included Community Shaders' Frame Generation as an optional mod, under the `Performance Optimizations` separator
+ - Unpacked the Creation Kit scripts inside Anvil's Stock Game folder (I had this unpacked on my end already but forgot to do it for users...)
+   - If you already unpacked the CK Scripts yourself, then you don't have to worry about this
+
+</Details>
+
+<Details>
+<summary>Download Changes</summary>
+
+#### Updated
+
+- Andrealphus' Papyrus Functions
+- Embers XD
+- NAT.CS III
+- Nature of the Wild Lands
+- Nature of the Wild Lands - 3D Hybrid LODs
+- Ore Deposit - Meshes Improvement
+- PGPatcher (aka ParallaxGen)
+- Praedy's Repository - AIO
+- Praedy's Sky AIO
+- Praedy's Soul Cairn
+- RaceMenu OverlayFix and Various Mod Fixes
+- Survival Mode Improved - SKSE
+- JS Vanilla Circlets
+- FOMOD Plus
+- MO2 Audio Player
+
+#### Added
+
+- Alt-Tab Stuck Key Fix NG
+- Floating Hanging Moss Fix - Base Object Swapper (BOS)
+- Frame Generation
+- HD Stray Dog
+- Less Distracting Blowing Snow Effects
+- Logical Rope Bridges
+- Media Keys Fix SKSE
+- Nature of the Wild Lands - Floating Beehive Fixes
+- PAINTERLY - a High Res Vanilla Warpaint Retexture
+- Pocky's Human Male Makeup
+- Reverie - Female Skin
+  - All of Tempered Skins' Female options looked too young to me, I much prefer how Reverie does the aging & blemished look
+- Slaughterfish RTX - Ported for SE
+- Tempered Skins for Males - Dressed Version
+- Thistle Hybrid
+- Upgraded Slaughterfish
+- Alpha Blood Blending Fix (NG)
+
+#### Removed
+
+- ALT1 for Men - Male Characters' Body and Head Textures
+- Cathedral - 3D Thicket and Dead Shrubs
+- Drier Cathedral for 3D Thicket and Dead Shrubs
+- Custom Window
+  - It has a soft incompatibility with Improved Camera that can be easily fixed but since most users won't know about this, I'd rather remove it entirely than have them hunt down what's causing this incompatibility
+- ethqnm's blowing snow thing
+- Female Bosmer Normal Map Fix - Mature Skin Patch
+- Mature Skin Complexion for UNP
+- Nature of the Wild Lands - Patch Collection
+  - Anvil uses the Tree Replacer Only mod for NotWL so it shouldn't need this, but feel free to add it back if needed
+- Rustic Dragons
+- SlaughterFish RTX
+- Spiky Grass Mesh Improvements
+- Sword Fern 06 Remover
+- The New Gentleman SFW Edition
+- Vanilla Warpaints Absolution
+
+</details>
+
+## 3.1.0
+
+### Key Info
+
+- **Requires a new save!**
 - Sorry for the unsafe-save update right after a major release, but the performance that the list shipped out in 3.0.0 with was pretty abysmal (for a Community Shaders list, in my opinion) so I did some performance optimizations (I didn't realize cause my PC is pretty beefy...)
 - Read the patch notes below for more info
 
@@ -31,12 +136,14 @@ Key Info
 <summary>Patch Notes</summary>
 
 ### Bug Fixes
+
  - Fixed some NPCs being bald
  - Fixed the 32x9 Ultrawide Support mod being improperly configured (thanks Kannon :3)
  - Fixed the CPU Affinity MO2 plugin not being set to 0 initially
  - Added the Skyrim.ccc file to Anvil's Stock Game folder. This should fix the issue of `ResourcePack.esl` disabling itself after closing the game
 
 ### Misc. Tweaks
+
  - Trimmed some mods from the list that I felt weren't really needed (as in other mods covered them)
  - Downscaled some mods in the list. Any mods that were downscaled with Cathedral Assets Optimizer have been noted within the **Notes** section of MO2. 
    - VRAM usage decreased from 9GB to hovering around 5-6GB in my tests (based on what the Community Shaders overlay says)
@@ -49,6 +156,7 @@ Key Info
 <summary>Download Changes</summary>
 
 #### Updated
+
 - Andrealphus' Papyrus Functions
 - Assorted Mesh Fixes
 - Complete Widescreen Fix for Vanilla and SkyUI
@@ -64,6 +172,7 @@ Key Info
 - Skyrim Landscapes and Water Fixes
 
 #### Added
+
 - 4thUnknown's Dragons
 - Addons For 4th's Dragons SE - Broken Horn for Paarthurnax
 - Batch Plugin Cleaner for MO2
@@ -88,6 +197,7 @@ Key Info
 - Subtle Eye Cubemap
 
 #### Removed
+
 - Amon Textures HD - Clutter
 - Amon Textures HD - DLC01
 - Amon Textures HD - DLC02
@@ -153,12 +263,11 @@ Key Info
 
 </details>
 
-### 3.0.0
+## 3.0.0
 
-**Not Save-Safe**
+### Key Info
 
-Key Info
-
+- **Absolutely requires a new save!**
 - The AE DLC is no longer required. Only the 4 Free Creation Club files are required (Fishing, Survival Mode, Saints & Seducers, Rare Curios)
 - Modlist will most likely be heavier performance wise from this version going forward. Sorry...
 - The `FORGE` profile has been removed. The bug fixes that come with that profile are still incorporated of course, but if you'd like a modlist for developing mods I recommend [Althro's Dev Tools](https://github.com/Styyx1/ADT)
@@ -169,12 +278,15 @@ Key Info
 <summary>Download Changes</summary>
 
 #### Updated
+
 - Everything. Everything was updated.
 
 #### Added
+
 - Stuff!
 
 #### Removed
+
 - Lots of stuff...
 
 </details>

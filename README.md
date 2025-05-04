@@ -2,7 +2,7 @@
 
 <p align="center">
   [ <a href="https://www.nexusmods.com/skyrimspecialedition/mods/147302">Nexus Page</a> | Installation | <a href="https://github.com/Oghma-Infinium/Anvil/blob/main/CHANGELOG.md">Changelog</a> |
-  <a href="https://github.com/Oghma-Infinium/Anvil/blob/main/CONFIG.md">Configuration</a> | 
+  <a href="https://github.com/Oghma-Infinium/Anvil/blob/main/CONFIG.md">Configuration</a> |
   <a href="https://loadorderlibrary.com/lists/anvil">Load Order</a> |
   <a href="https://discord.gg/4WwqfK5yHg">Modlist Discord</a> ]
 </p>
@@ -27,7 +27,6 @@
   - [Pre-Installation](#pre-installation)
     - [Installing Microsoft Visual C++ and .NET](#installing-microsoft-visual-c-and-net)
     - [Pagefile and Crash Prevention](#pagefile-and-crash-prevention)
-    - [Setting Shader Cache Size (NVIDIA Users Only)](#setting-shader-cache-size-nvidia-users-only)
     - [Steam Setup](#steam-setup)
     - [Changing the Game Language](#changing-the-game-language)
     - [Installing Rare Curios Files](#installing-rare-curios-files)
@@ -42,7 +41,7 @@
   - [Post-Installation Issues and Troubleshooting](#post-installation-issues-and-troubleshooting)
   - [Keyboard Keybinds](#keyboard-keybinds)
 - [Playing the Game](#playing-the-game)
-- [Updating the modlist](#updating-the-modlist)
+- [Updating the Modlist](#updating-the-modlist)
 - [Removing the Modlist](#removing-the-modlist)
 - [Issues](#issues)
 - [Credits and Thanks](#credits-and-thanks)
@@ -81,10 +80,10 @@ The section below outlines my *recommended* system specifications for the list. 
 
 </Details>
 
-- Downloads Size: ~76 GB
-- Install Size: ~99 GB  
+- Downloads Size: ~75 GB
+- Install Size: ~97 GB  
 - Temporary Files: ~30 GB  
-  **TOTAL:** ~175 GB  
+  **TOTAL:** ~173 GB  
 
 > In case of a disparity between the listed sizes here and the Wabbajack Gallery, the values here should be more correct as Wabbajack does not properly account for archive compression in the post-installation list.
 
@@ -99,42 +98,38 @@ These steps are only required for installing the modlist for the first time. Add
 #### Installing Microsoft Visual C++ and .NET
 
  1. Install [Visual C++ x64](https://aka.ms/vs/17/release/vc_redist.x64.exe).
- 2. Install [.NET Runtime 9.X.X Desktop x64](https://dotnet.microsoft.com/en-us/download/dotnet/9.0).
- 3. Install [.NET 6.0 Runtime Desktop x64](https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-desktop-6.0.30-windows-x64-installer).
+ 2. Install [.NET Runtime 8.X.X Desktop x64](https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-desktop-8.0.15-windows-x64-installer).
+ 3. Install [.NET Runtime 6.0.0 Desktop x64](https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-desktop-6.0.30-windows-x64-installer).
 
 >[!WARNING]
 >If you already have Visual C++ installed, please make sure you install it again and use the `Repair` option to get the latest version of the redistributables. **Do NOT skip this step or MO2 and the game may fail to launch.**
 
 #### Pagefile and Crash Prevention
 
->[!WARNING]
->Larger Skyrim modlists require a significant amount of memory, running out of memory **will** result in crashes and other potential issues.
+Larger Skyrim modlists require a significant amount of memory, running out of memory **will** result in crashes and other potential issues.
 
-**To set up a Pagefile:**
+<Details>
+<summary>Click me for instructions on how to setup a Pagefile!</summary>
 
- 1. Press `Win Key + R`
- 2. Type `sysdm.cpl ,3` and hit `ENTER`
- 3. Navigate to **Performance** and click the box `Settings...`
- 4. Click the **Advanced** tab at the top
- 5. Under **Virtual Memory** click the box `Change...`
- 6. Uncheck `Automatically Manage` if it is checked
- 7. Select your disk drive, ideally your fastest solid state drive
- 8. Click `Custom Size:`
- 9. In the box next to **Initial Size (MB)**, type `20480`
- 10. In the box next to **Maximum Size (MB)**, type `20480`
- 11. Click `Set`.
- 12. Click `OK`.
- 13. Click `Apply`.
- 14. Click `OK`.
- 15. **Restart your PC**.
+ 1. Press `Win Key + R` keys, type `sysdm.cpl ,3` and hit `ENTER`
+ 1. Select the `Settings...` box under the **Performance** tab
+ 2. Select the **Advanced** tab at the top
+ 3. Select the `Change...` box under **Virtual Memory**
+ 4. Uncheck `Automatically Manage` if it is checked
+ 5. Select your preferred disk drive, ideally your fastest solid state drive
+ 6. Select `Custom Size`
+ 7. In the box next to **Initial Size (MB)**, type `20480`
+ 8. In the box next to **Maximum Size (MB)**, type `20480`
+ 9. Select `Set`, then click `OK`. Exit out of the Virtual Memory window
+ 10. Select `Apply`, then click `OK` on the System Properties window
+ 11. **Restart your PC**.
 
->[!TIP]
-> Your pagefile does not need to be on the same drive as your Wabbajack install or Steam install.
+</Details>
 
 <Details>
 <summary>Why do we need a Pagefile?</summary>
 
-Skyrim is a very old game (originally released in 2011) that is built on the [Creation Engine](https://en.wikipedia.org/wiki/Creation_Engine), a engine based off of the [Gamebryo](https://en.wikipedia.org/wiki/Gamebryo) engine that was originally used for Morrowind (released in 2002, *before I was born*).  
+Skyrim is a very old game (originally released in 2011) that is built on the [Creation Engine](https://en.wikipedia.org/wiki/Creation_Engine), a engine based off of the [Gamebryo](https://en.wikipedia.org/wiki/Gamebryo) engine that was originally used for Morrowind (released in 2002).  
 
 Through lots of experience and trial-and-error, we have discovered that increasing the window's pagefile can fix certain types of Skyrim crashes, the two most common examples being `Unhandled native exception occurred at 0x7FF6ADC8DDDA` and `Unhandled native exception occurred at 0x0`.  
 
@@ -142,25 +137,10 @@ But why is this? Skyrim appears to use system memory in very unexpected ways, fo
 
 </Details>
 
-#### Setting Shader Cache Size (NVIDIA Users Only)
-
->[!IMPORTANT]
->For NVIDIA users, it is recommended to boost the size of the shader cache. These settings have been shown to improve stability, while it may not be entirely necessary, it is still recommended.
-
-**To do this:**
-
-- Right-click on your desktop and select `NVIDIA Control Panel`
-- Navigate and click `Manage 3D Settings`
-- Scroll down the **Global Settings** tab until you see **Shader Cache Size**
-- Double-click `Driver Default` to the right of **Shader Cache Size** and select `10 GB`
-- Click `Apply` in the bottom right hand corner
-- Exit out of the application
-![](https://raw.githubusercontent.com/iAmMe27/Tahrovin/main/img/ShaderCache.png)
-
 #### Steam Setup
 
 >[!WARNING]
->If you have your Steam Library in Program Files and only have one drive, please read [this article](https://github.com/LostDragonist/steam-library-setup-tool/wiki/Usage-Guide) by LostDragonist. Locations such as Desktop, Documents, Downloads, OneDrive, etc. *will* cause issues with installing and playing the list.
+>If you have your Steam Library in Program Files and only have one drive, please read [this article](https://github.com/LostDragonist/steam-library-setup-tool/wiki/Usage-Guide) by LostDragonist. Locations such as Desktop, Documents, Downloads, OneDrive, etc. *will* cause issues with installing the list.
 
  1. Change Skyrim SE's Steam settings so it does not [automatically update](https://help.steampowered.com/en/faqs/view/71AB-698D-57EB-178C#disable).
  2. Please ensure you follow the steps outlined in the [Installing Rare Curios Files](#installing-rare-curios-files) section. If you already own the AE DLC, and see **lowercase** curios files in your Skyrim's Steam install, you can safely skip this step. AE DLC owners do not have to worry about disabling/uninstalling the AE DLC either as Wabbajack will simply skip over those files when installing the modlist.
@@ -185,21 +165,21 @@ To change your Skyrim SE's language:
 #### Installing Rare Curios Files
 >
 >[!WARNING]
-> ***If you DO NOT own the AE DLC, do NOT skip this step or your install may fail!***
+> **If you DO NOT own the AE DLC, DO NOT skip this step or your install may fail!**
 
-Since the 1.6.1130 update (January 17, 2024), Steam has begun including the free Creation Club (CC) files with the base installation of Skyrim. However, these files do not have the same file hash as the files that are downloaded from the in-game **Creations** menu for Anniversary Edition (AE) users. In order to comply with Wabbajack policy and minimize issues for users who own the AE update, Anvil is compiled using the versions of the CC content that are obtained from the **in-game** Creations menu.  
+Since the 1.6.1130 update (January 17, 2024), Steam began including the free Creation Club (CC) files with the base installation of Skyrim. However, these files do not have the same file hash as the files that are downloaded from the in-game **Creations** menu for Anniversary Edition (AE) users. In order to comply with Wabbajack policy and minimize issues for users who own the AE update, Anvil is compiled using the versions of the CC content that are obtained from the **in-game** Creations menu.
 
 As a result of this, for users who do not own the AE, you must ensure that you download the correct version of the CC files. Steps below:
 
- - Navigate to your Skyrim SE's Steam Data folder
-    - i.e. `D:\SteamLibrary\steamapps\common\Skyrim Special Edition\data`
- - Delete *both* Rare Curios files:
-    - `ccbgssse037-curios.bsa`
-    - `ccbgssse037-curios.esl`
- - Launch Skyrim SE from Steam and select **Creations** at the main menu
- - Select **Search** at the bottom and search for `Rare Curios`
- - Select the card titled `Rare Curios` and press **Download**
- - Once it is done, accept Bethesda's load order message and exit the game
+- Navigate to your Skyrim SE's Steam Data folder
+  - i.e. `D:\SteamLibrary\steamapps\common\Skyrim Special Edition\data`
+- Delete *both* Rare Curios files:
+  - `ccbgssse037-curios.bsa`
+  - `ccbgssse037-curios.esl`
+- Launch Skyrim SE from Steam and select **Creations** at the main menu
+- Select **Search** at the bottom and search for `Rare Curios`
+- Select the card titled `Rare Curios` and press **Download**
+- Once it is done, accept Bethesda's load order message and exit the game
 
 >[!IMPORTANT]
 >
@@ -313,15 +293,17 @@ If you find yourself struggling to run Wabbajack without it crashing, freezing u
 
 #### Missing Manual Downloads
 
-Wabbajack frequently has trouble downloading mods hosted on sites other than Nexus. If you get an error such as **Missing Manual Downloads**, then read this section. You will need to manually download these files and place them in the `Downloads Location` that is made in the [Downloading and Installing Anvil](#downloading-and-installing-Anvil) section.
+Wabbajack frequently has trouble downloading mods hosted on sites other than Nexus. If you get an error such as **Missing Manual Downloads**, then read this section. You will need to manually download these files and place them in the `Downloads Location` that is made in the [Downloading and Installing Anvil](#downloading-and-installing-anvil) section.
 
 >[!WARNING]
 > Make sure that you **DO NOT** unzip these files.
 
 MEGA Files:
-- [High Poly Head - EFA - Eyebrow Make Fix](https://mega.nz/file/WZt0BDCL#JNUTn_5P2sEPuHm3znSdrrqN28tPnxvmVzeFOw67FAU)
+
+- [High Poly Head - EFA - Eyebrow Male Fix](https://mega.nz/file/WZt0BDCL#JNUTn_5P2sEPuHm3znSdrrqN28tPnxvmVzeFOw67FAU)
 
 Patreon Files:
+
 - [zzjay's Horse Textures](https://www.patreon.com/file?h=65018177&i=10497594)
 
 ## Post-Installation and Optional Setup
@@ -333,7 +315,7 @@ Anvil uses a Wabbajack feature called Stock Game to keep your Steam installation
 ### Antivirus Exceptions
 
 >[!WARNING]
->Antivirus programs are notorious for false flagging [MO2's Virtual File System](https://stepmodifications.org/wiki/Guide:Mod_Organizer/Advanced), which can and will cause crashes and other problems. Third-party AV programs such as BitDefender, Norton, and Webroot are especially aggressive, and you will most likely need to fully uninstall them in order to launch the game through MO2. It is 2024, Windows Defender and being smart online is more than adequate to protect yourself from malicious software.
+>Antivirus programs are notorious for false flagging [MO2's Virtual File System](https://stepmodifications.org/wiki/Guide:Mod_Organizer/Advanced), which can and will cause crashes and other problems. Third-party AV programs such as BitDefender, Norton, and Webroot are especially aggressive, and you will most likely need to fully uninstall them in order to launch the game through MO2. It is 2025, Windows Defender and being smart online is more than adequate to protect yourself from malicious software.
 
 If you use Windows Defender, it is advised that you set up an exception for the modlist.
 
@@ -386,13 +368,13 @@ Send a message in the `#Anvil-Support` channel of our [discord](https://discord.
 
 This section is going to be short, basic, and only go over the *additional modded keybinds*. All other controls, other than the ones listed below, are bound to vanilla keybinds.
 
-Please refer the [this](https://ck.uesp.net/wiki/Input_Script) page for the DXScanCodes used by most mods if you'd like to change the binds for these mods **outside of the game**.
+Please refer [this](https://ck.uesp.net/wiki/Input_Script) page for the DXScanCodes used by most mods if you'd like to change the binds for these mods **outside of the game**.
 
 - [ReShade](https://reshade.me/): `Home` Key
-    - ReShade Effects Toggle : `\` Key
+  - ReShade Effects Toggle : `\` Key
 - [Toggle UI](https://www.nexusmods.com/skyrimspecialedition/mods/112819): `F6` Key
-    - Toggle Compass Only: `Right Shift + F6` Keys
-    - Toggle Subtitles Only: `Right Ctrl + F6` Keys
+  - Toggle Compass Only: `Right Shift + F6` Keys
+  - Toggle Subtitles Only: `Right Ctrl + F6` Keys
 - [Debug Menu](https://www.nexusmods.com/skyrimspecialedition/mods/136456): `F1` Key
 - [Modex - A Mod Explorer Menu](https://www.nexusmods.com/skyrimspecialedition/mods/137877): `Delete` Key
 - [Community Shaders](https://www.nexusmods.com/skyrimspecialedition/mods/86492): `End` Key
@@ -400,10 +382,10 @@ Please refer the [this](https://ck.uesp.net/wiki/Input_Script) page for the DXSc
 
 ## Playing the Game
 
->[!WARNING]
->Before starting the list, read over the [Configuration](https://github.com/Oghma-Infinium/Anvil/blob/main/CONFIG.md) page.
+>[!Tip]
+>Before playing the list, read over the [Configuration](https://github.com/Oghma-Infinium/Anvil/blob/main/CONFIG.md) page.
 
- 1. Head over to your modlist installation folder (e.g. `C:\Anvil`), locate an executable named `ModOrganizer.exe`, and launch it. Your first launch of Mod Organizer 2 may take several minutes due to GitHub repository downloads, so please be patient.
+ 1. Head over to your modlist installation folder (e.g. `C:\Modlists\Anvil`), locate an executable named `ModOrganizer.exe`, and launch it. Your first launch of Mod Organizer 2 may take several minutes due to GitHub repository downloads, so please be patient.
 
  2. Set up the [Configuration](https://github.com/Oghma-Infinium/Anvil/blob/main/CONFIG.md) page options if needed and set your CPU Affinity by following the instructions below. **DO NOT skip these instructions!**
     <Details>
@@ -416,27 +398,28 @@ Please refer the [this](https://ck.uesp.net/wiki/Input_Script) page for the DXSc
 
     </Details>
 
- 3. Click the "Play Anvil" Executable in MO2 to launch the game. The game may take several minutes to load on your first launch.
+ 3. Click the "Play Anvil" Executable in MO2 to launch the game.
+ 4. Have fun! :)
 
-## Updating the modlist
+## Updating the Modlist
 
 Versioning for the list will adhere to the following format: `MAJOR.MINOR.PATCH`.
 
 - `MAJOR`: Any release with a number change here will be considered a major update as at least 1 area of the list was massively overhauled. These updates with **NEVER** be save safe.
 - `MINOR`: Any release with a number change here will be considered a minor update, these updates will **not** be save safe, unless otherwise specified.
 - `PATCH`: Any release with a number change here will be considered a patch, these updates should be save safe and will be used primarily for bugfixes.
-- In some rare cases, a fourth number will be used to designate a `HOTFIX`. These will only be utilized in cases where the list is recompiled with no other changes.
 
 To update a modlist, follow these steps:
+
 - Open the Wabbajack application
 - Download the newest Wabbajack file for your modlist from the `Browse Lists` section by locating the modlist's UI card and clicking "Download & Install"
 - Select the same `Installation Location` and `Downloads Location` folders you chose previously
 - Click the "Install" button to begin installation
 
-Changes to the modlist will be lost upon reinstall, so back up your modifications (such as INI tweaks or mod configs). If you want to keep mods you've added, prefix said mods with **[NoDelete]** to force Wabbajack to skip those files. 
+Changes to the modlist will be lost upon reinstall, so back up your modifications (such as INI tweaks or mod configs). If you want to keep mods you've added, it is recommended to prefix any added mods with **[NoDelete]** and run the Wabbajack [NoDelete] Indexer (Puzzle Piece button at the top of MO2) so Wabbajack can ignore those mods.
 
 >[!TIP]
->Saves can be continued across **Save-Safe** updates. Updates will be indicated whether or not they are **Save-Safe** on the [Changelog](https://github.com/Oghma-Infinium/Anvil/blob/main/CHANGELOG.md).
+>Saves can be continued across **save-safe** updates. Updates will be indicated whether or not they are **save-safe** on the [Changelog](https://github.com/Oghma-Infinium/Anvil/blob/main/CHANGELOG.md).
 
 ## Removing the Modlist
 
